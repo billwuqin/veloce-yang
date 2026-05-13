@@ -20,8 +20,8 @@ venue:
   type: "Working Group"
   mail: "opsawg@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/opsawg/"
-  github: "mjethanandani/veloce"
-  latest: "https://mjethanandani.github.io/veloce/draft-mahesh-opsawg-veloce-yang.html"
+  github: "billwuqin/veloce-yang"
+  latest: "https://billwuqin.github.io/veloce-yang/draft-mahesh-opsawg-veloce-yang.html"
 
 author:
 
