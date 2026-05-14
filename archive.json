@@ -1,0 +1,81 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-05-14T02:54:49.408841+00:00",
+  "repo": "billwuqin/veloce-yang",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOScOJ9M7bVDVn",
+      "title": "Editorial changes",
+      "url": "https://github.com/billwuqin/veloce-yang/pull/1",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-05-14T00:21:29Z",
+      "updatedAt": "2026-05-14T00:21:29Z",
+      "baseRepository": "billwuqin/veloce-yang",
+      "baseRefName": "main",
+      "baseRefOid": "2681d9dd60002ed4841b841b1f5e31afab6524b0",
+      "headRepository": "billwuqin/veloce-yang",
+      "headRefName": "billwuqin-patch-1",
+      "headRefOid": "8dd877a69691156099f77d9903af7ab4360c1494",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
