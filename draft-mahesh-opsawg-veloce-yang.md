@@ -121,9 +121,7 @@ A IETF-hosted repository MUST be created by the WG
 Chairs following the procedure in section 3.2 of Working Group
 GitHub Usage Guidance {{!RFC8874}} to develop or maintain a YANG
 Module. For a new module, this SHOULD happen when
-the module is adopted as a WG item. For an updated module, the repository
-for the original module should be reused to keep track of update of
-the original module. It MAY happen for individual drafts, and that is left
+the module is adopted as a WG item. It MAY happen for individual drafts, and that is left
 to the discretion of the chairs. However, once the document is adopted as a WG item,
 the repository SHOULD reside under the auspecies
 of IETF controlled repository and managed by the WG. The
