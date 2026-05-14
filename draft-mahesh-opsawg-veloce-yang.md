@@ -222,14 +222,13 @@ review comments on otherwise unchanged sections.
 
 ## How will the experiment be conducted {#sec-how}
 
-YANG modules developed in the IETF fall broadly into two
-categories. They can be new modules, or they can be a "bis"
-version of the module. The experiment will consist of two or
-more YANG modules, such that at least one of them is a new
-YANG module, and the other is a "bis" version of the YANG
-module. This is being done to make sure that the experiment
-covers all the IETF processes related to the development of
-YANG modules.
+YANG modules developed in the IETF fall broadly into two categories.
+They can be new modules, or they can be a "bis" version of the
+module.  The experiment will consist of two or more YANG module works,
+such that at least one of them is a new YANG module work, and the other is
+a "bis" version of the YANG module work.  This is being done to make sure
+that the experiment covers all the IETF processes related to the
+development of YANG modules.
 
 Participants in the experiment are encouraged to document
 their overall experience, including whether the SCM-based
@@ -263,10 +262,10 @@ faster way for a new YANG module to be developed, the
 timelines for the experiment are as follows:
 
 A new YANG module should be published within two years
-of the start of the experiment.
-A "bis" version of an existing YANG module, where the
-primary motivation is incremental updates rather than a
-ground-up redesign, should be published within one year.
+when the experiment gets started.  A "bis" version of an
+existing YANG module, where the primary motivation is
+incremental updates rather than a ground-up redesign,should
+be published within one year.
 
 If the experiment takes longer than these timelines, the
 experiment should be deemed to have failed.  At that time,
