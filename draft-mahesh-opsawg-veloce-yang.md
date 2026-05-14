@@ -117,13 +117,14 @@ be used. See section 1.3 of Working Group GitHub Usage
 Guidance {{!RFC8874}}. Integration using third-party hosted
 repositories MAY be used for experimentation purposes.
 
-A new repository MUST be created by the WG
+A repository MUST be created by the WG
 Chairs following the procedure in section 3.2 of Working Group
 GitHub Usage Guidance {{!RFC8874}} to develop or maintain a YANG
 Module. For a new module, this SHOULD happen when
-the module is adopted as a WG item. It MAY happen for
-individual drafts, and that is left to the discretion of the
-chairs. However, once the document is adopted as a WG item,
+the module is adopted as a WG item. For an updated module, the repository
+for the original module should be reused to keep track of update of
+the original module. It MAY happen for individual drafts, and that is left
+to the discretion of the chairs. However, once the document is adopted as a WG item,
 the repository SHOULD reside under the auspecies
 of IETF controlled repository and managed by the WG. The
 name of the repository SHOULD reflect the name
@@ -141,8 +142,8 @@ Group Guidelines and Procedures {{!RFC2418}}. For considerations
 related to granting editors write and administrators' right refer to
 section 3.3 of Working Group GitHub Usage Guidance {{!RFC8874}}.
 
-Other administrative policies as they relate to migration,
-personal change or the WG closing is defined in the Working
+Other administrative policies such as ones related to migration,
+personnel change or the WG closing are defined in the Working
 Group GitHub Administration {{!RFC8875}}.
 
 A release tagging mechanism should be defined to track the
@@ -157,12 +158,12 @@ issues regarding the module. They, along with corresponding
 links to the Pull Request (PR), are a useful way to record
 decisions made by the WG.
 
-PR allow for a user to request a change to the repository. A
+PRs allow for a user to request a change to the repository. A
 user does not need to have write access to the repository. A
 fork of the repository allows the user to make changes,
 validate them, and post the changes as a PR against the WG
 repository. Editors of the YANG module are encouraged not to
-accept changes into the "main" or "master" branch of the
+accept changes into the "main" branch of the
 repository. Instead, they should be directed to a branch
 that is used for development. This allows the editors to review
 the changes and make sure that they are in line with the WG
@@ -174,7 +175,8 @@ A procedure for assessing consensus is discussed in section 7 of Working
 Group GitHub Usage Guidance {{!RFC8874}} and SHOULD be
 followed when accepting changes to the module.
 
-The YANG module MUST NOT be inserted in the
+When a RFC document is needed for a new module or an updated module,
+the YANG module MUST NOT be inserted in the
 document; instead, a link to the above repository
 MUST be included in the document.  The link
 MUST point to a specific tagged version of the
