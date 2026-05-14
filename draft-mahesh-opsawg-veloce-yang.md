@@ -1,7 +1,7 @@
 ---
 title: "YANG deVELopment PrOCEss and maintenance (VELOCE)"
 abbrev: "VELOCE"
-category: info
+category: exp
 
 
 docname: draft-mahesh-opsawg-veloce-yang-latest
@@ -117,7 +117,7 @@ be used. See section 1.3 of Working Group GitHub Usage
 Guidance {{!RFC8874}}. Integration using third-party hosted
 repositories MAY be used for experimentation purposes.
 
-A repository MUST be created by the WG
+A IETF-hosted repository MUST be created by the WG
 Chairs following the procedure in section 3.2 of Working Group
 GitHub Usage Guidance {{!RFC8874}} to develop or maintain a YANG
 Module. For a new module, this SHOULD happen when
