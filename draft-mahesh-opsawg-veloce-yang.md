@@ -245,6 +245,10 @@ successful publication of the YANG modules identified as
 part of the experiment, within the timelines defined in
 {{sec-timeline}}.
 
+For an updated Module, If IETF YANG model can be updated using IETF
+ errata report and WG github without republishing as a new RFC, the
+ experiment should also be deemed as success.
+
 Beyond publication, success will also be evaluated based on
 whether the process improved community participation in YANG
 module development, and whether participants found the SCM-
