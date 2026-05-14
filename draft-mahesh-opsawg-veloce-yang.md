@@ -175,8 +175,7 @@ A procedure for assessing consensus is discussed in section 7 of Working
 Group GitHub Usage Guidance {{!RFC8874}} and SHOULD be
 followed when accepting changes to the module.
 
-When a RFC document is needed for a new module or an updated module,
-the YANG module MUST NOT be inserted in the
+The YANG module MUST NOT be inserted in the
 document; instead, a link to the above repository
 MUST be included in the document.  The link
 MUST point to a specific tagged version of the
