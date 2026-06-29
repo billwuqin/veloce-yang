@@ -3,7 +3,6 @@ title: "YANG deVELopment PrOCEss and maintenance (VELOCE)"
 abbrev: "VELOCE"
 category: info
 
-
 docname: draft-mahesh-opsawg-veloce-yang-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
@@ -21,8 +20,8 @@ venue:
   type: "Working Group"
   mail: "opsawg@ietf.org"
   arch: "https://mailarchive.ietf.org/arch/browse/opsawg/"
-  github: "billwuqin/veloce-yang"
-  latest: "https://billwuqin.github.io/veloce-yang/draft-mahesh-opsawg-veloce-yang.html"
+  github: "mjethanandani/veloce"
+  latest: "https://mjethanandani.github.io/veloce/draft-mahesh-opsawg-veloce-yang.html"
 
 author:
 
@@ -119,7 +118,7 @@ repositories MAY be used for experimentation purposes.
 
 A new repository MUST be created by the WG
 Chairs following the procedure in section 3.2 of Working Group
-GitHub Usage Guidance {{!RFC8874}} to develop or maintain a YANG
+GitHub Usage Guidance {{!RFC8874}} for to develop or maintain a YANG
 Module. For a new module, this SHOULD happen when
 the module is adopted as a WG item. It MAY happen for
 individual drafts, and that is left to the discretion of the
@@ -244,6 +243,11 @@ The primary "exit criteria" for the experiment will be
 successful publication of the YANG modules identified as
 part of the experiment, within the timelines defined in
 {{sec-timeline}}.
+
+For an updated module, if IETF YANG model can be updated using an
+IETF WG consensus process (probably including an errata report) and
+WG github without republishing as a new RFC, the experiment should
+also be deemed as success.
 
 Beyond publication, success will also be evaluated based on
 whether the process improved community participation in YANG
