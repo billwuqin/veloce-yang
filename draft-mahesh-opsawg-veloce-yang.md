@@ -68,6 +68,11 @@ publishing IETF YANG modules.  While this document mainly
 focuses on the IETF modules, IANA modules that are included in
 drafts, and removed ultimately on publication, can follow a
 similar process during the development of the IANA module.
+Note that VELOCE does not change how the YANG data model is
+extended to support new features/functionalities, any future
+extensions to the base model should continue to be introduced
+through augmentation and their associated I-Ds and not by
+directly adding them to the base model.
 
 This document proposes that the publishing of a YANG module
 should be split into two parts: the text portion, hereby
